@@ -94,8 +94,8 @@
 
 ### 6 | Передача генетической информации
 
-- Передача генетической информации происходит на этапе <code>транскрипции</code> (Transcription) при синтезе мРНК (mRNA) (про-мРНК), <codE>pRNA</code> и <code>tRNA<code> 
-- Молекула ДНК является матрицей для синтеза <code>mRNA</code>, <code>pRNA</code>, <code>tRNA</code>
+- Передача генетической информации происходит на этапе <code>транскрипции</code> (Transcription) при синтезе мРНК (mRNA) (про-мРНК), <codE>pRNA</code> и <code>tRNA</code> 
+- Молекула **DNA** является матрицей для синтеза <code>mRNA</code>, <code>pRNA</code>, <code>tRNA</code>
 
 #### 1. Биосинтез белка
 
