@@ -268,7 +268,6 @@ AAStringSet object of length 3:
 [2]     4 GTCA                                              seq2
 [3]     4 GCTA                                              seq3
 ```
-```
 
 - We can save the sequenceset using <code>
   
