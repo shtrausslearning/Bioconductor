@@ -31,6 +31,13 @@ s1_aa = AAString(chr_aa1)  # AAString Object
 s2_aa = AA
 ```
 
+```
+40-letter DNAString object
+seq: TTTCGGGTAAGTAAATATATGTTTCACTACTTCCTTTCGG
+10-letter AAString object
+seq: HEAGAWGHEE
+```
+
 ### 3 | Defining sets of strings <code>XStringSet</code>
 
 Stringsets can contain just a **single string** or **multiple strings**
