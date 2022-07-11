@@ -5,18 +5,17 @@ There are two alphabets we whould be familar with <code>nucleotide</code> & <cod
 ### Defining sequences
 
 - In R, we use **characters** as opposed to **strings** for content in **""** marks
-
 - define characters of dna & amino acids
-chr_n1 = "ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC"
-chr_n2 = "TTTCGGGTAAGTAAATATATGTTTCACTACTTCCTTTCGG"
-chr_aa1 = 'PAWHEAE'
-chr_aa2 = 'HEAGAWGHEE'
+  - chr_n1 = "ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC"
+  - chr_n2 = "TTTCGGGTAAGTAAATATATGTTTCACTACTTCCTTTCGG"
+  - chr_aa1 = 'PAWHEAE'
+  - chr_aa2 = 'HEAGAWGHEE'
 
 - ''' Nucleotide String '''
-s1_n <- DNAString(chr_n1) # DNAString objects
-s2_n <- DNAString(chr_n2)
-s2_n
+  - s1_n <- DNAString(chr_n1) # DNAString objects
+  - s2_n <- DNAString(chr_n2)
+  - s2_n # print DNA string
 
 - ''' Amino Acid String '''
-s1_aa = AAString(chr_aa1)  # AAString Object
-s2_aa = AA
+  - s1_aa = AAString(chr_aa1)  # AAString Object
+  - s2_aa = AA
