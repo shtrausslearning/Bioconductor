@@ -1,8 +1,10 @@
+### 1 | Biological Alphabets 
+
 There are two alphabets we whould be familar with <code>nucleotide</code> & <code>amino acids</code>
 - Example Nucleotide biological sequence: 'ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC'
 - Example Amino acid biological sequence: 'HEAGAWGHEE'
 
-### 1 | Defining sequences
+### 2 | Defining sequences
 
 - In R, we use **characters** as opposed to **strings** for content in **""** marks
 - define characters of dna & amino acids
