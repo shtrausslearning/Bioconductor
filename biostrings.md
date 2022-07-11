@@ -176,6 +176,7 @@ seq: ACGT
 #### 1. Read a DNA sequence(s) file
 
 - Utilising the <code>readDNAStringSet</code> function, we can read a file that contains <code>nucleotide</code> sequences
+- Usually those that utilise <code>fna</code> <code>fasta</code> ... formats
 
 ```R
 # File Containing One Sequence
@@ -190,4 +191,34 @@ DNAStringSet object of length 1:
 [1]  1231 GGCAGATTCCCCCTAGACCCGCC...TGCTCCCAAATAAACTCCAGAAG HSBGPG Human gene...
 'DNAStringSet'
 'HSBGPG Human gene for bone gla protein (BGP)'
+```
+
+#### 2. Read amino acid sequence(s) file
+
+- We can of course use the biostrings prefix as well <code>Biostrings::</code>
+- The curret string contains 10 separate sequences that are separated by breaks
+- Due to the simple nature of **FASTA** files, the <code>names</code> function doesn't parse the header
+  - Eg. <code>gi|45478712|ref|N...</code> contains various information separated by the <code>|</code> symbol
+
+```R
+fasta_aa = Biostrings::readAAStringSet('/kaggle/input/bioinformatics/sequences/NC_005816.faa')
+fasta_aa
+class(fasta_aa) # AAStringSet object
+
+```
+
+```
+AAStringSet object of length 10:
+     width seq                                              names               
+ [1]   340 MVTFETVMEIKILHKQGMSSRAI...NFDKHPLHHPLSIYDSFCRGVA gi|45478712|ref|N...
+ [2]   260 MMMELQHQRLMALAGQLQLESLI...KGESYRLRQKRKAGVIAEANPE gi|45478713|ref|N...
+ [3]    64 MNKQQQTALNMARFIRSQSLILL...ELAEELQNSIQARFEAESETGT gi|45478714|ref|N...
+ [4]   123 MSKKRRPQKRPRRRRFFHRLRPP...TNPPFSPTTAPYPVTIVLSPTR gi|45478715|ref|N...
+ [5]   145 MGGGMISKLFCLALIFLSSSGLA...SGNFIVVKEIKKSIPGCTVYYH gi|45478716|ref|N...
+ [6]   357 MSDTMVVNGSGGVPAFLFSGSTL...MSDRRKREGALVQKDIDSGLLK gi|45478717|ref|N...
+ [7]   138 MKFHFCDLNHSYKNQEGKIRSRK...YLSGKKPEGVEPREGQEREDLP gi|45478718|ref|N...
+ [8]   312 MKKSSIVATIITILSGSANAASS...GGDAAGISNKNYTVTAGLQYRF gi|45478719|ref|N...
+ [9]    99 MRTLDEVIASRSPESQTRIKEMA...AMGGKLSLDVELPTGRRVAFHV gi|45478720|ref|N...
+[10]    90 MADLKKLQVYGPELPRPYADTVK...YEKLVRIAEDEFTAHLNTLESK gi|45478721|ref|N...
+'AAStringSet'
 ```
