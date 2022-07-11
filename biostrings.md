@@ -83,3 +83,15 @@ AAStringSet object of length 3:
 [2]     4 GTCA                                              seq2
 [3]     4 GCTA                                              seq3
 ```
+
+- Converting <code>XString</code> to a <code>XStringSet</code>
+
+```R
+str_strset = DNAStringSet(s1_n)
+```
+
+```
+DNAStringSet object of length 1:
+    width seq
+[1]    40 ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC
+```
