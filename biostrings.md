@@ -111,7 +111,7 @@ AAStringSet object of length 1:
 'AAStringSet'
 ```
 
-```
+```R
 dna_char <- toString(n_set[1])
 class(dna_char) # check the class type
 dna_char # print character
