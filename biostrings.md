@@ -251,3 +251,31 @@ class(char_seq) # show object class
 'gi|45478712|ref|NP_995567.1| putative transposase [Yersinia pestis biovar Microtus str. 91001]'
 'character'
 ```
+
+### 5 | Saving sequences to FASTA
+
+- Once we have worked with our sequences, we want to save them in a file, in biostrings we can save in the <code>FASTA</code> format
+- Suppose we have this sequence set:
+
+```R
+n_set # an aastringset we wish to save
+```
+
+```
+AAStringSet object of length 3:
+    width seq                                               names               
+[1]     4 ACGT                                              seq1
+[2]     4 GTCA                                              seq2
+[3]     4 GCTA                                              seq3
+```
+```
+
+- We can save the sequenceset using <code>
+  
+```R
+# Save our XStringSet
+writeXStringSet(n_set,
+                filepath='/kaggle/working/dna_list.fasta',
+                format='fasta')
+```
+  
