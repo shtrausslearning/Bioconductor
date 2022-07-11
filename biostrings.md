@@ -173,6 +173,10 @@ seq: ACGT
 - <code>Biostrings</code> utilises the **FASTA** format,
 - <code>names</code> references to the single header that is present in the file (non parsed)
 
+#### 1. Read a DNA sequence(s) file
+
+- Utilising the <code>readDNAStringSet</code> function, we can read a file that contains <code>nucleotide</code> sequences
+
 ```R
 # File Containing One Sequence
 fasta_n = readDNAStringSet('/kaggle/input/bioinformatics/sequences/example.fasta')
