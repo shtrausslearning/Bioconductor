@@ -278,3 +278,29 @@ writeXStringSet(n_set,
                 format='fasta')
 ```
   
+#### 6 | Combining Stringsets
+
+```R
+# combine characters 
+x0 <- DNAStringSet(c("CTCCCAGTAT", "TTCCCGA", "TACCTAGAG"))  # String Set #1
+x1 <- DNAStringSet(c("AGGTCGT", "GTCAGTGGTCCCC", "CATTTTAGG")) # String Set #2
+x2 <- DNAStringSet(c("TGCTAGCTA", "AGTCTTGC", "AGCTTTCGAG")) # String Set #3
+
+dna_list <- list(x0, x1, x2) # create a list of String Sets
+dna_xstrset = do.call(c, dna_list) # concentrate 
+dna_xstrset
+```
+
+```
+DNAStringSet object of length 9:
+    width seq
+[1]    10 CTCCCAGTAT
+[2]     7 TTCCCGA
+[3]     9 TACCTAGAG
+[4]     7 AGGTCGT
+[5]    13 GTCAGTGGTCCCC
+[6]     9 CATTTTAGG
+[7]     9 TGCTAGCTA
+[8]     8 AGTCTTGC
+[9]    10 AGCTTTCGAG
+```
