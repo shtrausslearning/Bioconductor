@@ -171,6 +171,7 @@ seq: ACGT
 ### 4 | Reading sequences from files
 
 - <code>Biostrings</code> utilises the **FASTA** format,
+- <code>names</code> references to the single header that is present in the file (non parsed)
 
 ```R
 # File Containing One Sequence
@@ -178,4 +179,11 @@ fasta_n = readDNAStringSet('/kaggle/input/bioinformatics/sequences/example.fasta
 fasta_n # print read data 
 class(fasta_n) # print read class format
 names(fasta_n) # print name of sequence
+```
+```
+DNAStringSet object of length 1:
+    width seq                                               names               
+[1]  1231 GGCAGATTCCCCCTAGACCCGCC...TGCTCCCAAATAAACTCCAGAAG HSBGPG Human gene...
+'DNAStringSet'
+'HSBGPG Human gene for bone gla protein (BGP)'
 ```
