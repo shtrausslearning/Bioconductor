@@ -14,13 +14,19 @@ There are two alphabets we whould be familar with <code>nucleotide</code> & <cod
   - chr_aa2 = 'HEAGAWGHEE'
 
 - <code>Nucleotide</code> String
-  - s1_n <- DNAString(chr_n1) # DNAString objects
-  - s2_n <- DNAString(chr_n2)
-  - s2_n # print DNA string
+
+```R
+s1_n <- DNAString(chr_n1) # DNAString objects
+s2_n <- DNAString(chr_n2)
+s2_n # print DNA string
+```
 
 - <code>Amino Acid</code> String
-  - s1_aa = AAString(chr_aa1)  # AAString Object
-  - s2_aa = AA
+
+```R
+s1_aa = AAString(chr_aa1)  # AAString Object
+s2_aa = AA
+```
 
 ### 3 | Defining sets of strings <code>XStringSet</code>
 
@@ -32,3 +38,10 @@ Stringsets can contain just a **single string** or **multiple strings**
 
 - Define a new XStringSet from characers (1 sequence)
   - n_set_1 <- DNAStringSet(c("ACGT"))
+
+- Give names to sequences in our stringset 
+
+```
+seq_name = c('seq1','seq2','seq3')
+names(n_set) <- paste0(seq_name)
+```
