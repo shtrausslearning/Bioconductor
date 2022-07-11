@@ -49,10 +49,24 @@ str_concat = c("ACGT","GTCA","GCTA") # concat to make vector w/ c()
 n_set <- AAStringSet(str_concat)
 ```
 
+```
+AAStringSet object of length 3:
+    width seq
+[1]     4 ACGT
+[2]     4 GTCA
+[3]     4 GCTA
+```
+
 - Define a new XStringSet from characers (1 sequence)
 
 ```
 n_set_1 <- DNAStringSet(c("ACGT"))
+```
+
+```
+DNAStringSet object of length 1:
+    width seq
+[1]     4 ACGT
 ```
 
 - Give names to sequences in our stringset 
