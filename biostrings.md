@@ -13,11 +13,11 @@ There are two alphabets we whould be familar with <code>nucleotide</code> & <cod
   - chr_aa1 = 'PAWHEAE'
   - chr_aa2 = 'HEAGAWGHEE'
 
-- Nucleotide String
+- <code>Nucleotide</code> String
   - s1_n <- DNAString(chr_n1) # DNAString objects
   - s2_n <- DNAString(chr_n2)
   - s2_n # print DNA string
 
-- Amino Acid String
+- <code>Amino Acid</code> String
   - s1_aa = AAString(chr_aa1)  # AAString Object
   - s2_aa = AA
