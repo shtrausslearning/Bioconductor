@@ -42,6 +42,8 @@ seq: HEAGAWGHEE
 
 Stringsets can contain just a **single string** or **multiple strings**
   
+#### 1. define a new string set from string concat
+  
 - Define a new XStringSet from chacaters (3 sequences)
 
 ```
@@ -57,7 +59,9 @@ AAStringSet object of length 3:
 [3]     4 GCTA
 ```
 
-- Define a new XStringSet from characers (1 sequence)
+#### 2. define a new stringset from a single 
+
+- Define a new <code>XStringSet</code> from <code>characers</code> (1 sequence)
 
 ```R
 n_set_1 <- DNAStringSet(c("ACGT"))
