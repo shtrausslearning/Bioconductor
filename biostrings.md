@@ -73,6 +73,8 @@ DNAStringSet object of length 1:
 [1]     4 ACGT
 ```
 
+#### 3. adding names to string set sequences
+
 - Give names to sequences in our stringset <code>n_set</code>
 
 ```R
@@ -88,6 +90,8 @@ AAStringSet object of length 3:
 [3]     4 GCTA                                              seq3
 ```
 
+#### 4. convert a string to a stringset
+
 - Converting <code>XString</code> to a <code>XStringSet</code>
 
 ```R
@@ -99,6 +103,8 @@ DNAStringSet object of length 1:
     width seq
 [1]    40 ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC
 ```
+
+#### 5. extract characters from a sequence in a stringset
 
 - Extracting characters of a string from a stringset 
 
@@ -125,6 +131,8 @@ dna_char # print character
 'character'
 'ACGT'
 ```
+
+#### 6. extract characters from a sequences in a stringset
 
 - Extracting multiple characters from a <code>stringset</code>
 
