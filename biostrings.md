@@ -8,10 +8,13 @@ There are two alphabets we whould be familar with <code>nucleotide</code> & <cod
 
 - In R, we use **characters** as opposed to **strings** for content in **""** marks
 - define characters of dna & amino acids
-  - chr_n1 = "ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC"
-  - chr_n2 = "TTTCGGGTAAGTAAATATATGTTTCACTACTTCCTTTCGG"
-  - chr_aa1 = 'PAWHEAE'
-  - chr_aa2 = 'HEAGAWGHEE'
+
+```R
+chr_n1 = "ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC"
+chr_n2 = "TTTCGGGTAAGTAAATATATGTTTCACTACTTCCTTTCGG"
+chr_aa1 = 'PAWHEAE'
+chr_aa2 = 'HEAGAWGHEE'
+```
 
 - <code>Nucleotide</code> String
 
@@ -33,11 +36,17 @@ s2_aa = AA
 Stringsets can contain just a **single string** or **multiple strings**
   
 - Define a new XStringSet from chacaters (3 sequences)
-  - str_concat = c("ACGT","GTCA","GCTA") # concat to make vector w/ c()
-  - n_set <- AAStringSet(str_concat)
+
+```
+str_concat = c("ACGT","GTCA","GCTA") # concat to make vector w/ c()
+n_set <- AAStringSet(str_concat)
+```
 
 - Define a new XStringSet from characers (1 sequence)
-  - n_set_1 <- DNAStringSet(c("ACGT"))
+
+```
+n_set_1 <- DNAStringSet(c("ACGT"))
+```
 
 - Give names to sequences in our stringset 
 
