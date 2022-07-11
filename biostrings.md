@@ -4,7 +4,7 @@ There are two alphabets we whould be familar with <code>nucleotide</code> & <cod
 - Example Nucleotide biological sequence: 'ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC'
 - Example Amino acid biological sequence: 'HEAGAWGHEE'
 
-### 2 | Defining sequences <code>XString</code>
+### 2 | A single sequence <code>XString</code>
 
 - In R, we use **characters** as opposed to **strings** for content in **""** marks
 - define characters of dna & amino acids
@@ -38,7 +38,7 @@ seq: TTTCGGGTAAGTAAATATATGTTTCACTACTTCCTTTCGG
 seq: HEAGAWGHEE
 ```
 
-### 3 | Defining sets of strings <code>XStringSet</code>
+### 3 | A collection of sequences <code>XStringSet</code>
 
 Stringsets can contain just a **single string** or **multiple strings**
   
