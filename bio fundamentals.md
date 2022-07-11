@@ -81,7 +81,7 @@
 
 |Генетический Код|
 |-|
-|<img src="https://ru-static.z-dn.net/files/d3e/19a39edd5f8f1e597c245010a71dbfc1.png" width ="900">|
+|<img src="https://ru-static.z-dn.net/files/d3e/19a39edd5f8f1e597c245010a71dbfc1.png" width ="600">|
 
 ### 5 | Свойства Генетического Кода
 
