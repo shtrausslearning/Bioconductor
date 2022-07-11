@@ -198,7 +198,7 @@ DNAStringSet object of length 1:
 - We can of course use the biostrings prefix as well <code>Biostrings::</code>
 - The curret string contains 10 separate sequences that are separated by breaks
 - Due to the simple nature of **FASTA** files, the <code>names</code> function doesn't parse the header
-  - Eg. <code>gi|45478712|ref|N...</code> contains various information separated by the <code>|</code> symbol
+  - Eg. <code>gi|45478712|ref|N...</code> contains various information about the sequence, separated by the <code>|</code> symbol
 
 ```R
 fasta_aa = Biostrings::readAAStringSet('/kaggle/input/bioinformatics/sequences/NC_005816.faa')
