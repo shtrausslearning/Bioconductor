@@ -107,6 +107,7 @@ DNAStringSet object of length 1:
 #### 5. extract characters from a sequence in a stringset
 
 - Extracting characters of a string from a stringset 
+- first define a stringset with a single sequence
 
 ```R
 string = n_set[1]
@@ -120,6 +121,8 @@ AAStringSet object of length 1:
 [1]     4 ACGT                                              seq1
 'AAStringSet'
 ```
+
+- <code>toString</code> to convert to type <code>character</code>
 
 ```R
 dna_char <- toString(n_set[1])
