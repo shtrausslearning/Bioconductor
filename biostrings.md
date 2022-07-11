@@ -269,7 +269,7 @@ AAStringSet object of length 3:
 [3]     4 GCTA                                              seq3
 ```
 
-- We can save the sequenceset using <code>
+- We can save the sequenceset using <code>writeXStringSet</code>
   
 ```R
 # Save our XStringSet
