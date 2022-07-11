@@ -69,7 +69,7 @@ DNAStringSet object of length 1:
 [1]     4 ACGT
 ```
 
-- Give names to sequences in our stringset 
+- Give names to sequences in our stringset <code>n_set</code>
 
 ```R
 seq_name = c('seq1','seq2','seq3')
