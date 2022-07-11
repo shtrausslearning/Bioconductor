@@ -280,6 +280,8 @@ writeXStringSet(n_set,
   
 #### 6 | Combining Stringsets
 
+- If we have several stringsets, we can create a list of stringsets 
+
 ```R
 # combine characters 
 x0 <- DNAStringSet(c("CTCCCAGTAT", "TTCCCGA", "TACCTAGAG"))  # String Set #1
