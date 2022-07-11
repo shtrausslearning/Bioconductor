@@ -167,3 +167,15 @@ seq: ACGT
 'ACGT'
 'character'
 ```
+
+### 4 | Reading sequences from files
+
+- <code>Biostrings</code> utilises the **FASTA** format,
+
+```R
+# File Containing One Sequence
+fasta_n = readDNAStringSet('/kaggle/input/bioinformatics/sequences/example.fasta')
+fasta_n # print read data 
+class(fasta_n) # print read class format
+names(fasta_n) # print name of sequence
+```
