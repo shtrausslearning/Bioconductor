@@ -95,3 +95,29 @@ DNAStringSet object of length 1:
     width seq
 [1]    40 ACTTCACCAGCTCCCTGGCGGTAAGTTGATCAAAGGAAAC
 ```
+
+- Extracting characters of a string from a stringset 
+
+```R
+string = n_set[1]
+string
+class(string)
+```
+
+```
+AAStringSet object of length 1:
+    width seq                                               names               
+[1]     4 ACGT                                              seq1
+'AAStringSet'
+```
+
+```
+dna_char <- toString(n_set[1])
+class(dna_char) # check the class type
+dna_char # print character
+```
+
+```
+'character'
+'ACGT'
+```
