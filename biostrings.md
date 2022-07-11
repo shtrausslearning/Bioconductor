@@ -121,3 +121,34 @@ dna_char # print character
 'character'
 'ACGT'
 ```
+
+- Extracting multiple characters from a <code>stringset</code>
+
+```R
+lst <- list() # define empty list
+
+# loop through all in n_set
+for(i in 1:length(n_set)) {
+    lst <- c(lst,toString(n_set[i]))
+}
+
+lst # list containing characters
+```
+
+```R
+# Set - > Single sequence
+string = n_set[[1]] # extract single sequence 
+string # print string
+
+# use toString
+char = toString(string)
+char  # print character
+class(char) # print char type
+```
+
+```
+4-letter AAString object
+seq: ACGT
+'ACGT'
+'character'
+```
