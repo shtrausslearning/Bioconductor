@@ -59,7 +59,7 @@ AAStringSet object of length 3:
 
 - Define a new XStringSet from characers (1 sequence)
 
-```
+```R
 n_set_1 <- DNAStringSet(c("ACGT"))
 ```
 
@@ -71,7 +71,15 @@ DNAStringSet object of length 1:
 
 - Give names to sequences in our stringset 
 
-```
+```R
 seq_name = c('seq1','seq2','seq3')
 names(n_set) <- paste0(seq_name)
+```
+
+```
+AAStringSet object of length 3:
+    width seq                                               names               
+[1]     4 ACGT                                              seq1
+[2]     4 GTCA                                              seq2
+[3]     4 GCTA                                              seq3
 ```
