@@ -278,7 +278,7 @@ writeXStringSet(n_set,
                 format='fasta')
 ```
   
-### 6 | Combining Stringsets
+### 6 | Subset/ Stringsets
 
 - If we have several stringsets, we can create a list of stringsets 
 
