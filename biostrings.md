@@ -222,3 +222,32 @@ AAStringSet object of length 10:
 [10]    90 MADLKKLQVYGPELPRPYADTVK...YEKLVRIAEDEFTAHLNTLESK gi|45478721|ref|N...
 'AAStringSet'
 ```
+
+- Noting that the enumeration starts with 1 and not with 0 in python
+
+```R
+fasta_aa[1] # Still AA StringSet object, but length of 1
+```
+
+```
+AAStringSet object of length 1:
+    width seq                                               names               
+[1]   340 MVTFETVMEIKILHKQGMSSRAI...VNFDKHPLHHPLSIYDSFCRGVA gi|45478712|ref|N...
+```
+
+- Some other operations, which we may need to use:
+
+```R
+width(fasta_aa[1]) # get the length of the sequence 
+seq(fasta_aa[1]) # sequence number
+names(fasta_aa[1]) # sequence description
+char_seq = toString(fasta_aa[1]) # get the character object type of the sequence
+class(char_seq) # show object class 
+```
+
+```
+340
+1
+'gi|45478712|ref|NP_995567.1| putative transposase [Yersinia pestis biovar Microtus str. 91001]'
+'character'
+```
