@@ -22,8 +22,8 @@ Bioconductor for bioinformatics operations
   - <code>probabilistic</code>
 
 - Deterministic motifs:
-  - Often captured by enhanced RE
-  - As name indicates; present/absent in the input sequences
+  - Often captured by **RE**
+  - present/absent in the sequences
 
 
 
