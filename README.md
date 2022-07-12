@@ -18,8 +18,8 @@ Bioconductor for bioinformatics operations
   - Motifs may indicate the existence of conserved domains (parts of the protein that play specific biological functions; eg. enzyme binding sites for substrates/other molecules)
 
 - Type groups of motifs:
-  - Deterministic
-  - Probabilistic
+  - <code>deterministic</code>
+  - <code>probabilistic</code>
 
 - Deterministic motifs:
   - Often captured by enhanced RE
